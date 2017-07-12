@@ -63,6 +63,13 @@
       ]
     },
     {
+      "name": "Frameworks",
+      "level": "",
+      "keywords": [
+        "Tamarin, scikit-learn, TensorFlow"
+      ]
+    },
+    {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
@@ -76,27 +83,25 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
+      "institution": "The American University in Cairo, Cairo, Egypt",
+      "area": "Computer Engineering and Mathematics (expected Fall, 2019)",
+      "studyType": "Bachelor of Science",
       "startDate": "2013-09-01",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.97",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Twitter",
+      "position": "Software Engineering Intern",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2017-09-11",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "On-boarding Team",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
       ]
     },
     {
