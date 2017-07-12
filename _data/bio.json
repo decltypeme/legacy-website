@@ -4,12 +4,12 @@
     "label": "Student",
     "picture": "https://decltypeme.github.io/decltypeme.github.io/images/avatar.jpg",
     "email": "islamfm@aucegypt.edu",
-    "phone": "424-385-3331",
+    "phone": "(+1) 424-385-3331",
     "website": "https://decltypeme.github.io",
     "summary": "I do computer science and mathematics.",
     "location": {
       "address": "UCLA Institute for Pure and Applied Mathematics, 460 Portola Plaza",
-      "postalCode": "96822",
+      "postalCode": "90095",
       "city": "Los Angeles",
       "countryCode": "USA",
       "region": "California"
@@ -53,31 +53,44 @@
       "keywords": [
       ]
     }
+    ,{
+      "name": "Software Engineering",
+      "keywords": [
+        "UML",
+        "Formal Methods"
+      ]
+  }
   ],
   "skills": [
     {
       "name": "Programming Languages",
-      "level": "Skilled",
+      "level": "",
       "keywords": [
-        "C++"
+        "C/C++",
+        "Python",
+        "JavaScript",
+        "Scala",
+        "Java",
+        "Matlab",
+        "Octave"
       ]
     },
     {
       "name": "Frameworks",
       "level": "",
       "keywords": [
-        "Tamarin, scikit-learn, TensorFlow"
+        "Tamarin, scikit-learn, TensorFlow, Weka, HTK, Mathematica, Maple, Ionic"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
         "Ubuntu",
+        "Windows",
         "Git/GitHub",
         "g++",
-        "TI LaunchPad"
+        "LaTex"
       ]
     }
   ],
@@ -105,15 +118,15 @@
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
+      "company": "UCLA Institute for Pure and Applied Mathematics (IPAM)",
+      "position": "",
+      "website": "http://www.ipam.ucla.edu/",
       "startDate": "2015-01-01",
       "endDate": "2016-03-15",
-      "summary": "",
+      "summary": "Research in Industrial Projects for Students (RIPS) Participant",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Working in a team of four students on prototyping a facial verification engine sponsored by GumGum",
+        "Using a variety of machine learning tools including Tensorflow, Keras"
       ]
     }
   ],
