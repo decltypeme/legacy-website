@@ -8,7 +8,7 @@
     "website": "https://decltypeme.github.io",
     "summary": "I do computer science and mathematics.",
     "location": {
-      "address": "UCLA Institute for Pure and Applied Mathematics",
+      "address": "UCLA Institute for Pure and Applied Mathematics, 460 Portola Plaza",
       "postalCode": "96822",
       "city": "Los Angeles",
       "countryCode": "USA",
@@ -29,34 +29,37 @@
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Machine Learning",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Number Theory",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Cryptography",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Security",
+      "keywords": [
+      ]
+    },
+   {
+      "name": "Privacy",
       "keywords": [
       ]
     }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "level": "",
+      "name": "Programming Languages",
+      "level": "Skilled",
       "keywords": [
-        "C",
-        "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "C++"
       ]
     },
     {
