@@ -119,14 +119,27 @@
     },
     {
       "company": "UCLA Institute for Pure and Applied Mathematics (IPAM)",
-      "position": "",
-      "website": "http://www.ipam.ucla.edu/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "position": "Undergraduate Researcher",
+      "website": "",
+      "startDate": "2017-06-19",
+      "endDate": "2017-08-18",
       "summary": "Research in Industrial Projects for Students (RIPS) Participant",
       "highlights": [
-        "Working in a team of four students on prototyping a facial verification engine sponsored by GumGum",
+        "Working in a team of four students sponsored by GumGum on prototyping a facial verification engine",
         "Using a variety of machine learning tools including Tensorflow, Keras"
+      ]
+    },
+    {
+      "company": "Affectiva",
+      "position": "Machine Learning Intern",
+      "website": "",
+      "startDate": "2017-06-19",
+      "endDate": "2017-08-18",
+      "summary": "Speech Activity",
+      "highlights": [
+        "Worked directly with the lead speech scientist on emotion recognition from speech",
+        "Prototyped the Affectiva’s first multi-class speech emotion classifier",
+        "Employed transfer learning to adapt a deep Convolutional Neural Network(CNN) for the task of emotion recognition from speech"
       ]
     }
   ],
