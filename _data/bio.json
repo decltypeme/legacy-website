@@ -133,15 +133,39 @@
       "company": "Affectiva",
       "position": "Machine Learning Intern",
       "website": "",
-      "startDate": "2017-06-19",
-      "endDate": "2017-08-18",
-      "summary": "Speech Activity",
+      "startDate": "2017-01-08",
+      "endDate": "2017-03-31",
+      "summary": "Speech Activity, Science Team",
       "highlights": [
         "Worked directly with the lead speech scientist on emotion recognition from speech",
-        "Prototyped the Affectiva’s first multi-class speech emotion classifier",
-        "Employed transfer learning to adapt a deep Convolutional Neural Network(CNN) for the task of emotion recognition from speech"
+        "Prototyped Affectiva’s first multi-class speech emotion classifier",
+        "Employed transfer learning to adapt a deep Convolutional Neural Network (CNN) for the task of emotion recognition from speech"
       ]
-    }
+    },
+    {
+      "company": "Microsoft Research",
+      "position": "Summer Intern SDE",
+      "website": "",
+      "startDate": "2015-07-01",
+      "endDate": "2015-08-31",
+      "summary": "Advanced Technology Lab in Cairo",
+      "highlights": [
+        "Implemented the Hierarchical multi-Layer Acoustic Model (HiLAM) for text-dependent speaker verification",
+        "Used a variety of speech processing toolkits and models such as HTK, Gaussian Mixture Modeling, MFCC feature extraction and voice activity detection",
+        "Used a mix of programming languages such as Matlab and C++"
+      ]
+    },
+    {
+      "company": "Nile University",
+      "position": "Summer Trainee",
+      "website": "",
+      "startDate": "2014-06-15",
+      "endDate": "2014-08-31",
+      "summary": "Ubiquitous & Visual Computing Group, Center for Informatics Science",
+      "highlights": [
+        "Learned different machine learning topics including classification, clustering, feature selection and ensemble methods using Weka"
+      ]
+    },
   ],
   "volunteer": [
     {
