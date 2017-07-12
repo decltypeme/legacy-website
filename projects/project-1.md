@@ -1,29 +1,101 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
-date: 2015
+image: images/sra-example.png
+title: sierra-tango-alpha: Static Timing Analyzer
+permalink: projects/sta
+date: 2017
 labels:
-  - Robotics
-  - Arduino
+  - Digital Design
+  - Graph Theory
+  - Software Engineering
   - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+summary: My team developed a tool for static timing analysis in C++
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>
+# sierra-tango-alpha
+sierra-tango-alpha is a library of open-source binaries for static timing analysis tasks.
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+For full source code and documentation, please refer to:
+https://github.com/decltypeme/sierra-tango-alpha
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+## Source Files
+```
+src
+├── cpm.cpp
+├── cpm.h
+├── DAG.cpp
+├── DAG.h
+├── gen-constraints.cpp
+├── gen-constraints.h
+├── netlist.cpp
+├── netlist.h
+├── parser.cpp
+├── parser.h
+├── path_finding.cpp
+├── path_finding.h
+├── path-lister.cpp
+├── slacks.cpp
+├── sta.cpp
+└── violations.cpp
+```
+## Binaries
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+1. ***path-lister***: A module to list all paths in a given Verilog netlist.
+2. ***gen-constraints***: A module to generate random net capacitances, input time delays and clock constraints given a Verilog netlist.
+3. ***sta***: A tool for static timing analysis and reporting the delay across all the paths
+4. ***violations***: A tool to report timing violations such as setup and hold violations
+5. ***slacks***: A tool to compute the RAT, AAT, and slacks for all nodes in the timing graph and exports it to the **DOT graph descriptive language**.
+
+## Dependecies
+
+1. Boost Library for the Liberty parser
+
+2. **Liberty Parser**: http://vlsicad.ucsd.edu/~sharma/Research/software/liberty_parser/
+
+3. Graph Rendering Tool Tool (**GraphViz** would do it for us):
+```
+sudo apt-get install graphviz
+```
+
+4. **tsort**: Linux Topological Sorting Tool (Installed and in Path): https://linux.die.net/man/1/tsort
 
 
+## Building the Library
 
+To build the library, we use make. Make sure make is installed with **gcc>=4.9** (**for full-support of regular expressions**)
+
+You can choose to build specific modules, by just doing make followed by either module name of the ones mentioned above. That is ``make path-lister``, ``make gen-constraints``, ``make sta``, ``make violations``, or ``make slacks``
+
+To build all binaries: `` make all ``. To clean all builds and remove binaries, ``make clean``
+
+### Testing the library
+
+The library comes with some verilog netlist files for testing. To run all tests:
+```
+cd tests
+chmod +x ./constraints.sh
+chmod +x ./project.sh
+./constraints.sh
+./project.sh
+```
+
+### Module Command Line arguments
+
+#### Module: gen-constraints
+
+To build the module
+```
+make gen-constraints
+```
+Command Line Arguments:
+```
+./bin/gen-constraints [NETLIST_INPUT_FILE] [CAPACITANCE_FILE] [DELAY_FILE]
+```
+
+#### Command Line Arguments
+Except for the ``gen-constraints`` module, any module expects these files as inputs:
+
+```
+MODULE [LIBERTY_FILE_PATH] [NET_LIST] [CAPACITANCE_FILE] [CONSTRAINT_FILE] [CLK_SKEW_FILE] [PATH_REPORT_OUTPUT_FILE] [VIOLATIONS_FILE_PATH]
+```
