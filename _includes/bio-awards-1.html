@@ -12,10 +12,17 @@
     <div class="ui grid">
       <div class="sixteen wide column no-bottom">
         <p class="ui no-bottom">
-          <b>{{ entry.title }}</b>, {{ entry.awarder }}{% if entry.date %}, {{ entry.date }}{% endif %}
+          <b>{{ entry.title }}</b>, {{ entry.awarder }}
         </p>
         <p class="ui">{{ entry.summary }}</p>
       </div>
+      {% if entry.date %}
+      <div class="four wide right aligned column no-bottom">
+        <p class="ui no-bottom"><b>
+          {{ entry.date }}
+        </b></p>
+      </div>
+      {% endif %}
     </div>
 
     {% endfor %}

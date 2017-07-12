@@ -111,7 +111,7 @@
       "company": "Twitter",
       "position": "Software Engineering Intern",
       "website": "",
-      "startDate": "2017-09-11",
+      "startDate": "September 2017",
       "endDate": "Present",
       "summary": "On-boarding Team",
       "highlights": [
@@ -121,8 +121,8 @@
       "company": "UCLA Institute for Pure and Applied Mathematics (IPAM)",
       "position": "Undergraduate Researcher",
       "website": "",
-      "startDate": "2017-06-19",
-      "endDate": "2017-08-18",
+      "startDate": "June 2017",
+      "endDate": "August 2018",
       "summary": "Research in Industrial Projects for Students (RIPS) Participant",
       "highlights": [
         "Working in a team of four students sponsored by GumGum on prototyping a facial verification engine",
@@ -133,8 +133,8 @@
       "company": "Affectiva",
       "position": "Machine Learning Intern",
       "website": "",
-      "startDate": "2017-01-08",
-      "endDate": "2017-03-31",
+      "startDate": "January 2017",
+      "endDate": "March 2017",
       "summary": "Speech Activity, Science Team",
       "highlights": [
         "Worked directly with the lead speech scientist on emotion recognition from speech",
@@ -146,8 +146,8 @@
       "company": "Microsoft Research",
       "position": "Summer Intern SDE",
       "website": "",
-      "startDate": "2015-07-01",
-      "endDate": "2015-08-31",
+      "startDate": "July 2015",
+      "endDate": "August 2015",
       "summary": "Advanced Technology Lab in Cairo",
       "highlights": [
         "Implemented the Hierarchical multi-Layer Acoustic Model (HiLAM) for text-dependent speaker verification",
@@ -159,8 +159,8 @@
       "company": "Nile University",
       "position": "Summer Trainee",
       "website": "",
-      "startDate": "2014-06-15",
-      "endDate": "2014-08-31",
+      "startDate": "June 2014",
+      "endDate": "August 2014",
       "summary": "Ubiquitous & Visual Computing Group, Center for Informatics Science",
       "highlights": [
         "Learned different machine learning topics including classification, clustering, feature selection and ensemble methods using Weka"
