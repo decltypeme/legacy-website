@@ -3,7 +3,6 @@ layout: project
 type: project
 image: images/sta-example.png
 title: "sierra-tango-alpha: Static Timing Analyzer"
-permalink: projects/sta
 date: 2017
 labels:
   - Digital Design
