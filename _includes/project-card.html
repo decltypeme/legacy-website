@@ -24,7 +24,7 @@
       {% endfor %}
     </div>
   </div>
-    {% if page.git %}
+    {% if include.page.git %}
      <a href="https://github.com/{{ page.git }}"><i class="large github icon"></i>{{ page.git }}</a>
       <!-- a class="ui bottom attached button" href="{{ page.projecturl }}">Read More</a -->
     {% else %}
