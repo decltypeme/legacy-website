@@ -21,8 +21,8 @@
     </p>
 
     <div style="text-align: center">
-      {% if page.projecturl %}
-        <a class="ui basic button" href="{{ page.projecturl }}">Read More</a>
+      {% if include.page.git %}
+        <a class="ui basic button" href="https://github.com/{{ page.git }}"><i class="large github icon"></i>{{ page.git }}</a>
       {% else %}
         <a class="ui basic button" href="{{ site.baseurl}}{{ include.page.url }}">Read More</a>
       {% endif %}
