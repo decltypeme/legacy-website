@@ -6,13 +6,13 @@
     "email": "islamfm@aucegypt.edu",
     "phone": "(+1) 424-385-3331",
     "website": "https://decltypeme.github.io",
-    "summary": "<center>I <3 {CS, Math}</center></br>I am an undergraduate at the American University in Cairo, Egypt. This summer, I am at UCLA for a summer research program at IPAM on facial verification. <br/><br/> I have worked on projects involving speech, machine learning, and computer vision. <b> Now, I am exploring the fields of cryptography, formal methods, and privacy.</b>",
+    "summary": "<center>I <3 {CS, Math}</center></br>I am an undergraduate at the American University in Cairo, Egypt. This summer, I am doing an internship with Twitter's platform security team. <b> I am currently looking for a PhD position in one of the fields of cryptography, security, formal methods, and privacy.</b>",
     "location": {
-      "address": "UCLA Institute for Pure and Applied Mathematics, 460 Portola Plaza",
-      "postalCode": "90095",
-      "city": "Los Angeles",
+      "address": "Twitter Inc., 1501 4th Ave",
+      "postalCode": "98101",
+      "city": "Seattle",
       "countryCode": "USA",
-      "region": "California"
+      "region": "WA"
     },
     "profiles": [
       {
@@ -111,8 +111,18 @@
       "company": "Twitter",
       "position": "Software Engineering Intern",
       "website": "",
-      "startDate": "September 2017",
+      "startDate": "June 2018",
       "endDate": "Present",
+      "summary": "Platform Security Team",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "Twitter",
+      "position": "Software Engineering Intern",
+      "website": "",
+      "startDate": "September 2017",
+      "endDate": "December 2017",
       "summary": "On-boarding Team",
       "highlights": [
       ]
