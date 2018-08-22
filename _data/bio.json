@@ -6,7 +6,8 @@
     "email": "islamfm@aucegypt.edu",
     "phone": "(+1) 424-385-3331",
     "website": "https://decltypeme.github.io",
-    "summary": "<center>I <3 {CS, Math}</center></br>I am an undergraduate at the American University in Cairo, Egypt. This summer, I am doing an internship with Twitter's platform security team. <b> I am currently looking for a PhD position in one of the fields of cryptography, security, formal methods, and privacy.</b>",
+    "summary": "<center>I <3 {CS, Math}</center></br>I am an undergraduate at the American University in Cairo, Egypt. This summer, I am doing an internship with Twitter's platform security team. Starting September, I will join the <a href = 'https://dedis.epfl.ch/'>Decentralized and Distributed Systems (DEDIS)</a> Lab at École Polytechnique Fédérale de Lausanne (EPFL) to do my graduation project. 
+    <b> I am currently looking for a PhD position in one of the fields of: number theory, cryptography, security, formal methods, or privacy.</b>",
     "location": {
       "address": "Twitter Inc., 1501 4th Ave",
       "postalCode": "98101",
